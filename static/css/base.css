@@ -229,3 +229,14 @@ footer .footer-below {
         width: 20em;
     }
 }
+
+/* small enough for all phones */
+@media screen and (max-width: 415px) {
+    .main-container {
+        padding-left: 0;
+    }
+    
+    .logo {
+        width: 15em;
+    }
+}

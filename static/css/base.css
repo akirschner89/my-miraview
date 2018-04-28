@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom right, #b5d8ef, #89b6d2);
+    padding-top: 0;
+    color: #1a2739;
+    font-family: Nunito;
+}
+.navbar{
+    background-color: #1a2739;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    border: solid 2px white;
+}
+.logo{
+    height: 48pt;
+}
+span .center {
+    margin: auto;
+    float: none;
+}
+.btn {
+    background-color: white;
+    font-size: 18pt;
+    font-weight: 200;
+    border-radius: 10pt;
+    border: 2px solid white;
+    text-align: center;
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.section{
+    min-height: 100vh;
+}
+.flex-section{
+    display: flex;
+  align-items: center;
+}
+h1{
+    font-size: 48pt;
+    font-weight: 1000;
+}
+p{
+    font-size: 24pt;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    font-size: 24pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    list-style: none;
+}
+li:last-child{
+    margin-top: 5%;
+}
+.main-container {
+    padding-left: 10%;
+}
+.phone{
+    padding-left: 10pt;
+    padding-right: 70pt;
+    height: 65vh;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+.mira-detail-list {
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 2%;
+}
+i {
+    margin-right: 0.5em;
+}
+.empower-section {
+    margin: 10% 2%;
+} 
+
+.empower-section > p {
+    font-size: 20pt;
+    margin-bottom: 0;
+} 
+
+.site{
+    max-height: 45vh;
+}
+.site img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.phone-empower {
+    height: 70%;
+    width: 90%;
+    margin-bottom: 0;
+    margin-top: 60%;
+}
+.title{
+    margin: 0;
+    font-size: 16pt;
+}
+.detail{
+    font-size: 12pt;
+    font-weight: 100;
+    margin: 0;
+}
+.detail:last-of-type{
+    margin-bottom: 5%;
+}
+.full-width{
+    width: 100%;
+}
+
+footer {
+  color: white;
+    background-color: #1a2739;
+    margin-top: 0;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #6fccdd;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: black;
+}
+.modal-footer .btn{
+    background-color: #1a2739;
+    border: 2px solid #1a2739;
+
+}
+.modal-footer .btn:hover{
+    background-color: transparent;
+    color: #1a2739;
+    border: 2px solid #1a2739;
+}
+
+/* mobile */
+@media screen and (max-width: 720px) {
+    .info-container {
+        width: auto;
+        max-width: 100%;
+    }
+    button {
+        text-align: center;
+        width: auto;
+        max-width: 100%;
+        margin: 0;
+    }
+    .mira-detail-list{
+        text-align: left;
+        font-size: 80%;
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+    }
+    .phone-empower {
+        display: none;
+    }
+    .title {
+        margin-top: 1%;
+    }
+    .empower-section > p {
+        margin-bottom: 2%;
+    }
+    .btn {
+        width: 100%
+    }
+    .title:first-child{
+        padding-top: 20%;
+        margin-top: 10%;
+    }
+
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    .phone {
+        width: 100%;
+        height: 100%;
+        padding: 0 0 0 2em;
+        margin: 2em 20em 0 0;
+    }
+
+    .site img {
+        margin-top: 10%;
+        width: 110%;
+        height: 107%;
+        max-width: 105%;
+    }
+    .phone-empower {
+        margin-top: 80%;
+        height: 100%;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .title:first-child {
+        padding-top: 10%;
+    }
+
+    .detail:last-of-type {
+        margin-bottom: 2%;
+    }
+}
+
+/* just to fix the logo & hamburger on small mobile phones */
+@media screen and (max-width: 590px) {
+    .logo {
+        width: 20em;
+    }
+}

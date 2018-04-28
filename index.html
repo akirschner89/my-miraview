@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="miraview landing page">
+    <meta name="author" content="Gregory Mercado">
+   
+<!-- Google Analytics -->
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        // replace 'UA-XXXXX-Y' below with tracking ID
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+    <title>MiraView</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- header -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+            <img class="logo" src="static/images/miralogo.svg"/>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars navbar-toggler-icon"></i>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline navbar-nav ml-auto">
+              <button type="button" class="btn active my-2 my-sm-0" data-toggle="modal" data-target="#signup">Request A Demo</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- main intro section -->
+    <div class="container-fluid main-container">
+        <div class="section flex-section col-lg-auto">
+           <span class="center">
+                <h1>Reimagining PTSD Recovery</h1><br />
+                <p class="">Digital therapeutics that support PTSD <br/>recovery in and out of the office</p><br />
+                <button type="button" class="btn" data-toggle="modal" data-target="#signup">Request A Demo</button>
+            </span>
+        </div>
+
+<!-- second info section -->
+<div class="section justify-content-center container info-container">
+        <h1 class="full-width col-lg-auto">Meet Mira: a personal PTSD assistant</h1><br />
+        <div class="row">
+           <div class="col-md-4">
+            <img class="phone" src="static/images/miravoice.svg"/>
+            </div>
+            <div class="col-md-8 justify-content-left">
+                <ul class="mira-detail-list"> 
+                    <li>Never leave patients without support</li>
+                    <li><i class="far fa-check-square"></i>Smart grounding assistant</li>
+                    <li><i class="far fa-check-square"></i>Guided journaling experiences</li>
+                    <li><i class="far fa-check-square"></i>Digital EMDR therapy</li>
+                    <li><button type="button" class="btn" data-toggle="modal" data-target="#signup">Request A Demo</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<!-- third section start -->
+        <div class="section container empower-section">
+           <h1>Empowering Clinical Excellence</h1>
+           <p>Tools to provide the best care imagineable</p>
+           <div class="row">
+              <div class="site col-md-6">
+                  <img class="" src="static/images/miraview.png"/>
+              </div>
+              <div class="col-md-2">
+                    <img class="phone-empower" src="static/images/miravoice.svg"/>
+              </div>
+
+               <div class="col-md-4">
+                   <p class="title">Suggested therapy points</p>
+                   <p class="detail">to make the most out of each session</p><br />
+                   <p class="title">Unique patient insights</p>
+                   <p class="detail">to identify the trends and triggers behind the symptoms</p><br />
+                   <p class="title">Patient alerts and messaging</p>
+                   <p class="detail">to never be left in the dark</p><br />
+                   <button type="button" class="btn" data-toggle="modal" data-target="#signup">Request A Demo</button>
+               </div>
+           </div>
+        </div>
+    </div>
+
+<!-- footer -->
+    <footer class="text-center">
+                <div class="footer-below">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                Copyright &copy; MiraSaves Inc. 2018
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+<!-- modal -->
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signupmodal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <form class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Request A Demo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <input type="text" id="req-name" name="name" class="form-control" placeholder="Name" required />
+         <br />
+          <input type="email" id="req-email" name="email" class="form-control" placeholder="Email" required />
+        <br />
+        <div class="form-check form-check-inline">
+        <label><input type="radio" name="type" class="form-check-input" value="therapist" required />Therapist</label>
+          </div>
+          <div class="form-check form-check-inline">
+        <label><input type="radio" name="type" class="form-check-input" value="patient" />Patient</label>
+          </div>
+          <div class="form-check form-check-inline">
+        <label><input type="radio" name="type" class="form-check-input" value="other" />Other</label>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" onclick="requestDemo()" class="btn btn-primary">Request Demo</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="static/js/signup.js"></script>
+</body>
+</html>
